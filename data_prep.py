@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 
 
+
 def split_train_test(data, test_ratio):
     """ Takes a training data frame and splits it into a training / test set
         Requires: Numpy, Pandas
