@@ -1,3 +1,6 @@
+# miscellanous files I don't want checked in
+links.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
