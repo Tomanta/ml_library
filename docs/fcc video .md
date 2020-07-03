@@ -132,4 +132,47 @@
     - Many choices available
     - Insight is the goal (like statistics)
 
-01:08:51
+## Goals
+
+Analysis is goal-driven
+Story should match goals
+Answer clearly
+
+- State the question
+- Give your answer
+- Qualify as needed
+- Go in order
+- Discuss process sparingly
+- More charts, less text
+- Simplify charts
+- Avoid tables
+- Stories give value to data analysis
+- Be minimally sufficient
+- Give next steps
+- Justify data
+- Be specific
+- Steps should be doable by the client
+- Build on each step
+- Data gives correlation, client wants causation
+- Presentation graphics need clarity and narrative flow
+  - Distractions include:
+    - Colors
+    - 3D
+    - Interaction
+    - Animation
+- Reproduceable research
+  - Archive data sets, both raw and processed
+  - Archive all code to process / analyze data
+  - Comment liberally
+  - Explain why you did it the way you did
+
+### Data
+
+- Store in non-proprietary formats (like CSV)
+- Place files in secure, accessible location (Github)
+- Use dependency management package 
+  - Packrat (R)
+  - virtualenv (Python)
+- Put narrative in notebook, or digital notebook (Jupyter)
+
+1:36:33
