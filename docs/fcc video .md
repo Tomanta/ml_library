@@ -2,6 +2,8 @@
 
 <https://www.youtube.com/watch?v=ua-CiDNNj30&>
 
+From: <https://datalab.cc>
+
 ## Data Science Pathway
 
 1. Planning
@@ -33,7 +35,7 @@
     3. Revisit model
     4. Archive assets
 
-## Roles
+### Roles
 
 1. Engineer
     - Focus on backend hardware and software
@@ -62,7 +64,7 @@
 7. "Full stack unicorn"
     - Can do everything at a proficient level; may not exist
 
-## Methods Overview
+### Methods Overview
 
 1. Sourcing
     - Getting the raw materials
@@ -132,7 +134,7 @@
     - Many choices available
     - Insight is the goal (like statistics)
 
-## Goals
+### Goals
 
 Analysis is goal-driven
 Story should match goals
@@ -170,9 +172,101 @@ Answer clearly
 
 - Store in non-proprietary formats (like CSV)
 - Place files in secure, accessible location (Github)
-- Use dependency management package 
+- Use dependency management package
   - Packrat (R)
   - virtualenv (Python)
 - Put narrative in notebook, or digital notebook (Jupyter)
 
-1:36:33
+datakind.org - volunteer info
+
+## Data Sourcing
+
+Goals and metrics:
+Action: Goal is to do something
+Explicit: Goals can guide effort
+Client: Prevent frustration
+Analyst: Use your time well
+
+- Define success
+- Define metrics
+  - Business metrics (sales revenue, leads generated, etc)
+    - KPI's (key performance indicator)
+      - Non-financial
+      - Timely
+      - CEO focus
+      - Simple
+      - Team based
+      - Significant impact
+      - Limited dark side (does not reinforce wrong behaviors)
+  - SMART
+    - Specific
+    - Measurable
+    - Assignable
+    - Realistic
+    - Time-bound
+
+- Classification table:
+
+|               | Event Present   | Event Absent    | Total           |
+|---------------|-----------------|-----------------|-----------------|
+| Test positive | True positives  | False positives | Total positives |
+| Test Negative | False negatives | True negatives  | Total negatives |
+|               | Total present   | Total absent    | Total           |
+
+### Four kinds of accuracy
+
+- Sensitivity
+  - "If there is a fire, does the alarm ring"
+  - True positives divided by total alarms
+- Specificity
+  - "If there isn't a fire, does the alarm stay quiet"
+  - True negatives / total absent events
+- Positive predictive value
+  - If alarm rings, was there a fire?
+  - True positives / Total positives
+- Negative predictive value
+  - If alarm doesn't ring, is there no fire?
+  - True negatives / Total negatives
+
+### Existing data
+
+- In house data
+  - Data already in the organization
+  - Fast and easy
+  - May be in appropriate format
+  - May have good documentation
+- Open data
+  - Prepared data that's freely available
+  - Government data, corporate data, scientific data
+  - <http://data.gov>
+    - May also have state level data sources
+  - <http://open-data.europa.eu>
+  - <http://unicef.org/statistics>
+  - <http://who.int/gho>
+  - <http://pewinternet.org/datasets>
+  - <http://developer.nytimes.com>
+  - <http://google.com/publicdata>
+  - <http://aws.amazon.com/datasets>
+  - Pros: Valuable data sets, wide range of topics, often well formatted and well documented
+  - Cons: May be biased samples, meaning may not be clear, may need to share analyses to use, may have privacy issues
+- Third party data
+  - Proprietary, public, purchased
+  - Data-as-a-Service (Daas)
+  - Data brokers
+
+### APIs
+
+- Application programming interface
+- Lets programs talk to each other
+- Allows you to get web data
+- REST API
+  - Access data on web page via HTTP
+  - Usually in JSON format
+  - Can send to other programs
+  - Language agnostic
+- Social APIs (social networks)
+- Visual APIs (google maps, youtube, accuweather)
+
+### Scraping data
+
+2:08:00
