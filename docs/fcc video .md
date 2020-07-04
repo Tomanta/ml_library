@@ -269,4 +269,117 @@ Analyst: Use your time well
 
 ### Scraping data
 
-2:08:00
+Formats:
+
+- HTML text
+  - Pull structured text from web pages
+  - Use HTML tags
+- HTML tables
+  - HTML table tags
+  - If you know the table number, can easily import into Google Sheets
+    - =IMPORTHTML(url, "table", tablenumber)
+- PDFs
+  - Native vs. Scanned
+  - Native looks for text elements
+  - Can deal with raster/vector images
+  - Tabular data
+- Media (images/video/audio)
+  - Getting images is easy
+  - Reading data by looping pixel-by-pixel
+
+Pay attention to copyright and privacy
+
+How:
+
+- Apps
+  - import.io
+  - ScraperWiki
+  - Tabula
+  - Google Sheets
+  - Excel
+- Code
+  - R, Python, BASH, Java, PHP
+
+### Making data
+
+- Role?
+  - Passive
+  - Active
+- Q/Q
+  - Quantitative (numerical)
+  - Qualitative
+- How?
+  - Online
+  - In person
+  - Interviews
+    - Reasons to do interviews:
+      - New topic
+      - New audience
+      - Need to find ways to improve
+      - You don't want to constrain responses
+    - Structured
+      - Predetermined set of questions; everyone gets same questions
+      - Consistent
+    - Unstructured
+      - More like a conversation
+      - Questions come from answers
+      - Can be different for each person
+    - Interviews can take time (minutes to hour)
+    - Interviews usually require specific training
+    - Analysis is difficult, searching for themes
+    - Can learn things you never expected
+  - Surveys
+    - Do you know your topic and audience enough to anticipate answers?
+    - Types
+      - Closed-ended
+      - Open-ended
+      - In person
+      - Online
+    - Easy to do
+    - Easy to do _badly_
+    - Beware the push poll
+      - Biased attempt to get data
+    - Watch out for bias in question wording, response options, and sample selection
+  - Card Sorting
+    - Write topics on separate cards
+    - Respondents sort the cards
+    - From responses can take dissimilarity data
+    - Types of tasks
+      - Generative
+        - Respondents create own sets of cards
+        - Used to design a website
+      - Evaluative
+        - Fixed number/names of categories
+        - Can be used to see if website navigation makes sense
+    - Dendogram
+  - Experiments
+    - Laboratory (in person projects)
+      - Determine cause & effect
+      - Researchers play active role with manipulation
+      - Features
+        - Focused research
+        - Hypothesis Driven
+        - Random assignment
+          - Can reduce confounds & artifacts
+      - Eye tracking in web design
+      - Research and medicine
+      - Education
+      - Psychology
+      - Cons
+        - Requires extensive training
+        - Often time and labor intensive
+        - Can be expensive
+    - A/B testing (automated variation testing)
+      - Pick one element and create multiple versions
+      - Randomly assign people to versions
+      - Compare response rates
+        - Time on page
+        - Mouse tracking
+        - Click throughs
+        - Shopping cart value/abandonment
+      - Implement the best version
+      - Can perform continuously
+
+## Coding
+
+2:32:00
