@@ -382,4 +382,45 @@ How:
 
 ## Coding
 
-2:32:00
+**80/20 rule**: 80% of output comes from 20% of tools/input
+
+- Applications
+  - Spreadsheets
+    - Everywhere
+    - Often the client's format
+    - Often used for data transfers (csv)
+    - Easy to use
+    - Uses
+      - Data browsing
+      - Sorting
+      - Rearranging
+      - Formatting
+      - Transposing
+      - Tracking changes
+      - Making pivot tables
+      - Arranging output
+    - Tidy data
+      - Column == variable
+      - Row == case
+      - One sheet per file
+      - One level per file
+  - Tableau
+    - Tableau Public is the free version (public.tableau.com)
+      - Cannot save files to PC, saves them on the web
+      - Not private
+    - Visualization tool
+  - SPSS
+    - Statistical package for social sciences
+  - JASP
+    - New application ("free SPSS")
+- Web Data
+- Essentials
+  - R
+  - Python
+  - SQL
+- More
+  - C, C++, Java
+  - Bash
+  - Regex
+
+3:15:46
