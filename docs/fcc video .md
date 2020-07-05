@@ -414,6 +414,7 @@ How:
   - JASP
     - New application ("free SPSS")
 - Web Data
+  - HTML
 - Essentials
   - R
   - Python
@@ -423,4 +424,4 @@ How:
   - Bash
   - Regex
 
-3:15:46
+**Note:** I stopped watching the video here. I decided it was way too basic for my current level. If I was just getting started and trying to see what data science was about and a very basic, high level overview I would maybe find it useful (but, at 5+ hours, maybe not).
